@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free AI Mind - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Include the Tailwind CSS and Animate.css links in your HTML file, if you haven't already -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" href="https://freeaiminds.com/images/FreeAIMind.png" type="image/x-icon">
+
+
+    <meta name="description"
+        content="Discover a comprehensive AI tools directory, featuring top-rated AI software and tools for various applications. Find the perfect solutions for your AI projects and stay updated with the latest advancements in artificial intelligence technology.">
+    <meta property="og:title" content="AI Tools Directory - Find the Best AI Software and Tools">
+    <meta property="og:description"
+        content="Discover a comprehensive AI tools directory, featuring top-rated AI software and tools for various applications. Find the perfect solutions for your AI projects and stay updated with the latest advancements in artificial intelligence technology.">
+    <meta property="og:url" content="https://freeaiminds.com/">
+    <meta property="og:image" content="https://freeaiminds.com/images/FreeAIMind.png">
+    <style src="/style.css"></style>
+    <style>
+        .custom-border {
+            border: 2px solid rgb(203 213 225);
+            border-radius: 8px;
+            transition: border-color 0.3s ease;
+        }
+
+        .custom-border:hover {
+            border: 2px solid rgb(16 185 129);
+            border-image-slice: 1;
+        }
+
+        body {
+            background-image: url('/images/bg.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+
+        .width-6 {
+            width: 6%;
+        }
+    </style>
+</head>
+
+
+<body class="bg-zinc-900">
+    <!-- header  -->
+    <header class="flex items-center justify-center fixed w-full z-50 mt-4 ">
+        <nav
+            class="px-5 py-3 w-3/4 rounded-lg shadow-md bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+            <div class="flex items-center justify-between lg:flex-1">
+                <a href="/" class="-m-1.5 p-1.5">
+                    <h1 class="text-lg font-bold text-white inline-flex items-center">
+                        <img class="w-6 mr-2" src="https://freeaiminds.com/images/FreeAIMind.png"
+                            alt="free ai mind logo" loading="lazy">
+                        <span>FreeAiMind</span>
+                    </h1>
+                </a>
+                <div class="group inline-block relative">
+                    <i class="material-icons cursor-pointer px-4 py-2 text-white">widgets</i>
+                    <div class="hidden group-hover:block absolute top-10 right-0 bg-white rounded-lg shadow-lg p-4">
+                        <a href="/about.html"
+                            class="block mb-2 px-4 py-2 600 rounded hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400 text-white">About</a>
+                        <a href="/contact.html"
+                            class="block px-4 py-2 600 rounded hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400 text-white">Contact</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- space -->
+    <div class="h-10"></div>
+
+    <main class="p-2">
+        <!-- hero section -->
+        <section class="landing-page mt-8 md:mt-8 p-6">
+            <div class="landing-page__content flex flex-wrap">
+                <div class="landing-page__text-container flex items-center w-full lg:w-1/2 mt-11 sm:mt-0">
+                    <div class="max-w-2xl mb-8">
+                        <h1
+                            class="landing-page__title text-4xl font-bold leading-snug tracking-tight text-white lg:text-4xl lg:leading-tight xl:text-4xl xl:leading-tight dark:text-white">
+                            Embrace the Future with 'Free AI Mind' - Your Gateway to a World of AI Tools!
+                        </h1>
+                        <p
+                            class="landing-page__description py-5 text-xl leading-normal text-white lg:text-xl xl:text-2xl">
+                            Unlock boundless potential with our extraordinary Free AI Mind collection - a treasure trove
+                            of cutting-edge Artificial Intelligence tools. Elevate your projects, harness the future,
+                            and conquer new horizons, all without spending a dime!
+                        </p>
+
+                        <div
+                            class="landing-page__cta flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+                            <!-- Add your CTA buttons or links here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="landing-page__image-container flex items-center justify-center w-full lg:w-1/2">
+                    <div>
+                        <img src="https://freeaiminds.com/images/Rabort.png" alt="Hero Image" width="616" height="617"
+                            class="landing-page__image object-cover" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- small cards web -->
+        <section class="container mx-auto px-4 sm:px-6 lg:px-8 py-8" id="tools">
+            <div id="smallCard" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+            </div>
+        </section>
+
+        <h1 class="text-4xl font-bold text-white text-center">Check list
+        </h1>
+        <!-- web cards list -->
+        <section class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/elevenlabs%201.png"
+                                alt="Eleven labs - Text to speech" loading="lazy" class="mx-auto w-full" />
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Eleven labs - Text to speech</h2>
+                            <a href="https://elevenlabs.io/speech-synthesis" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Eleven labs - Text to speech', 'elevenlabs.io/speech-synthesis', 'Generate lifelike speech in any language and voice with the most powerful Text to Speech and Voice Cloning software.', 'freeaiminds.com/images/elevenlabs%201.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/mailmodo%202.png" alt="Mailmodo"
+                                class="mx-auto w-full" loading="lazy" />
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Mailmodo</h2>
+                            <a href="https://www.mailmodo.com/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Mailmodo', 'www.mailmodo.com/', 'When writing for SEO, email marketing, or social media, you may unleash creativity and save time by using these expertly tested suggestions. For instance, by allowing the AI to rapidly simplify it, you can instantly rewrite a difficult blog post in simple words. Make complex concepts understandable to everyone by breaking them down into simple terms. In order to increase SEO ranking, you can also utilize AI prompts to analyze your blog post outline and find any hidden content gaps. In this way, you may simulate the services of a professional SEO agency. Submit, evaluate, and review prompts in the community of active marketers. Assist peers with their insights, receive assistance from them, and add to the expansion of the AI prompt collection.', 'freeaiminds.com/images/mailmodo%202.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/catbird 3.png" alt="Cat Bird"
+                                class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Cat Bird</h2>
+                            <a href="https://www.catbird.ai/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Cat Bird', 'www.catbird.ai/', 'With just one cue, Catbird is an amazing multi-model image generator that allows you to let your creativity run wild. Just enter your concept, and presto! The best 17 picture models will be used to create 72 freshly created images. It\'s also completely free and doesn\'t require registration, so you can begin exploring all of its endless possibilities right now. Recall that the secret to reaching the stars—or a meadow full of kittens—and achieving the ideal outcomes is to be precise with your prompts. Additionally, you can ensure that every masterpiece you produce feels perfectly balanced because different models have varying resolutions.', 'freeaiminds.com/images/catbird 3.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/riverside 4.png" alt="Riverside"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Riverside</h2>
+                            <a href="https://riverside.fm/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Riverside', 'riverside.fm/', 'Use Riverside\'s free audio transcription tool to transcribe audio or video files in more than 100 languages. This free transcribing service makes use of OpenAI\'s sophisticated Whisper AI tool, which has an easy-to-use interface and doesn\'t require an account. Caption videos, or transcribe lengthy audio files. Enough time to do a 50-minute interview in one to two minutes. You can download the transcript in a variety of formats or copy it with time code markers even if it does not identify the speakers. Downloads are available in a number of formats, including an SRT file for captioning videos. Please take note that uploading a custom vocabulary library is not feasible with this free program. Although transcripts are correct, it is nevertheless advised to proofread them.', 'freeaiminds.com/images/riverside 4.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/contentatscale 5.png" alt="Content at Scale"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Content at Scale</h2>
+                            <a href="https://contentatscale.ai/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Content at Scale', 'contentatscale.ai/', 'Using AI-generated content reduces the possibility of Google penalizing you, thanks to this useful feature. You may quickly determine if content is authored by artificial intelligence (AI) or if it sounds more human by pasting or writing it into the detector. For the purpose of identifying information that sounds robotic, the Chat GPT detector goes beyond a simple AI classifier. The exceptional accuracy of Content At Scale\'s AI content checker is a result of its training on billions of unique pages containing words and data. If your material is human-or AI-optimized, it can predict that. This free AI checker is one of the few resources that can reliably identify word strings and text produced by ChatGPT and other AI generators, even as AI-generated text becomes more prevalent. A proprietary content platform is used by Content At Scale and was created', 'freeaiminds.com/images/contentatscale 5.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/blockadelabs 6.png" alt="Skybox Lab"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Skybox Lab</h2>
+                            <a href="https://www.blockadelabs.com/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Skybox Lab', 'www.blockadelabs.com/', 'With just a few text prompts, Blockade Labs\' AI-powered Skybox Lab enables you to create breathtaking 360° virtual environments. It\'s like having an instantaneous magical paintbrush to quickly create immersive experiences. You may become a technowizard with Skybox Lab, eradicating boundaries between creativity and technology. Skybox Lab\'s ease of use and its capacity to create original worlds in a matter of seconds distinguish it from rivals. Bring your most ambitious dreams to life fast and with minimal effort.', 'freeaiminds.com/images/blockadelabs 6.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/pdf 7.png" alt="PDF AI"      class="mx-auto w-full"  loading="lazy" />
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">PDF AI</h2>
+                            <a href="https://pdf.ai/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['PDF AI', 'pdf.ai/', 'Modify the way you work with other papers and PDFs. Talk to them! Avoid poring over countless pages in search of that one elusive detail. Reach your goals more quickly by utilizing PDF.ai\'s natural language processing capabilities. It functions like a time-consuming document whispering tool. Excellent for condensing research papers, contracts, business documents, and more. Get the main points of any paper quickly. So that you don\'t have to, let PDF.ai handle the effort. Talk about any document: PDF.ai functions for research papers, financial reports, and legal agreements. You have never had this much access to your documents. Instant responses: Use AI-powered information extraction, real-time Q&A, and summaries to sift through the clutter. Cited references: Each response is accompanied by credibility taken directly from the document.', 'freeaiminds.com/images/pdf 7.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/safurai 8.png" alt="Safurai"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Safurai</h2>
+                            <a href="https://www.safurai.com/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Safurai', 'safurai.com/', 'AI coding assistance that facilitates developers\' coding processes. An AI-based IDE extension companion named Safuri was created to provide assistance when developing, debugging, and refactoring. Imagine having a virtual assistant who would provide you advice and solutions at every turn, facilitating and speeding up the development process. Train the AI to respond with extreme precision to your project. Take use of shortcuts for asking for clarifications, improvements, or unit tests by utilizing natural-language search features for your projects. Safurai is open to all users and is presently in beta. It is compatible with a number of well-known IDEs and supports all the major coding languages. includes Python, JavaScript, C#, C++, Java, and Go among the programming languages it supports.', 'freeaiminds.com/images/safurai 8.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/lumalabs 9.png" alt="Luma AI"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Luma AI</h2>
+                            <a href="https://lumalabs.ai/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Luma AI', 'lumalabs.ai/', 'Luma AI is a ground-breaking program and service created by Palo Alto, California-based Luma Labs. Using a method called Neural Radiance Fields (NeRF), Luma AI is able to capture three-dimensional images with astonishing photo-realistic quality. High-end video games employ a similar technique called ray-tracing to produce pictures that are nearly impossible to tell apart from reality. No matter your level of AI development ability or technological curiosity, Luma\'s NERF technology enables you to rapidly and effortlessly produce stunning 3D photos and films. The straightforward user interface makes it easy to get up to speed and begin exploring this sophisticated piece of software\'s features.', 'freeaiminds.com/images/lumalabs 9.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/playgroundai 10.png" alt="Playground AI"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Playground AI</h2>
+                            <a href="https://playgroundai.com/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Playground AI', 'playgroundai.com/', 'Master the art of creating and editing images like a pro, even without prior expertise. Unlock the potential to craft and enhance stunning images professionally, regardless of your background', 'freeaiminds.com/images/playgroundai 10.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/craiyon 11.png" alt="Craiyon"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Craiyon</h2>
+                            <a href="https://www.craiyon.com/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Craiyon', 'craiyon.com/', 'Discover the remarkable AI-powered image creation tool, Craiyon, adept at transforming textual prompts into captivating illustrations. Leveraging the advanced training with Google TRC, it brings forth a plethora of impressive and imaginative images.', 'freeaiminds.com/images/craiyon 11.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/airoomplanner 12.png" alt="AI Room Planner"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">AI Room Planner</h2>
+                            <a href="https://airoomplanner.com/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['AI Room Planner', 'airoomplanner.com/', 'Indulge in professionally designed rooms without straining your budget. Access an extensive collection of cost-free interior design ideas, catering to every space in your home. No restrictions, just endless inspiration to elevate your living spaces.', 'freeaiminds.com/images/airoomplanner 12.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/lexica 13.png" alt="Lexica"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Lexica</h2>
+                            <a href="https://lexica.art/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Lexica', 'lexica.art/', 'The AI Image Stable Diffusion search engine is an advanced tool utilizing artificial intelligence to deliver smooth and precise image search results. Using cutting-edge diffusion algorithms, it ensures stable and visually coherent outcomes, enhancing the user\'s search experience like never before.', 'freeaiminds.com/images/lexica 13.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/thishousedoesnotexist 14.png" alt="House Generator"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">House Generator</h2>
+                            <a href="https://thishousedoesnotexist.org/generation-from-the-beach/45718642"
+                                target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['House Generator', 'thishousedoesnotexist.org/generation-from-the-beach/45718642', 'This House Does Not Exist leverages latent text-to-image diffusion to create lifelike representations of modern houses. Ideal for website owners seeking royalty-free home images, this cutting-edge tool delivers a vast array of realistic visuals, enhancing the appeal of any online platform with stunning architectural depictions.', 'freeaiminds.com/images/thishousedoesnotexist 14.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/character 15.png" alt="Character AI"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Character AI</h2>
+                            <a href="https://beta.character.ai/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Character AI', 'beta.character.ai/', 'Introducing an innovative chatbot that utilizes neural language models to simulate an intelligent conversation partner. With this interactive tool, users can initiate dialogues by crafting the first part, while the computer dynamically generates the subsequent responses, creating a seamless illusion of an engaging and thoughtful conversation', 'freeaiminds.com/images/character 15.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/useslingshot 16.png" alt="Slingshot"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Slingshot</h2>
+                            <a href="https://www.useslingshot.com/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Slingshot', 'useslingshot.com/', 'Swag is Awesome, Managing It Sucks presents a vibrant exploration of the allure and excitement that swag brings to various aspects of life. Delve into a captivating journey of style, attitude, and self-expression, while acknowledging the challenges and complexities that come with managing and curating swag. This unique perspective offers valuable insights, tips, and anecdotes for embracing the best of both worlds - celebrating the awesomeness of swag while efficiently navigating the often tricky task of its management. Whether you\'re a trendsetter or simply seeking guidance on organizing your collection, this fascinating read is a must-have for swag enthusiasts of all kinds.', 'freeaiminds.com/images/useslingshot 16.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/chatGPT mail write chrome extension 17.png" alt="ChatGPT Writer"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">ChatGPT Writer</h2>
+                            <a href="https://chrome.google.com/webstore/detail/chatgpt-writer-write-mail/pdnenlnelpdomajfejgapbdpmjkfpjkp"
+                                target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['ChatGPT Writer', 'chrome.google.com/webstore/detail/chatgpt-writer-write-mail/pdnenlnelpdomajfejgapbdpmjkfpjkp', 'Introducing ChatGPT Writer, a revolutionary Chrome extension that harnesses the power of artificial intelligence to effortlessly create complete emails, messages, and persuasive sales pitches on your behalf. This user-friendly tool streamlines your communication process, empowering you to craft professional and engaging content with ease, saving valuable time and effort. Say goodbye to writer\'s block and hello to efficient, AI-powered communication with ChatGPT Writer - your ultimate writing companion. Best of all, it\'s completely free!', 'freeaiminds.com/images/chatGPT mail write chrome extension 17.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/visily 18.png"
+                                alt="Visily" class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Visily</h2>
+                            <a href="https://www.visily.ai/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Visily', 'visily.ai/', 'Discover the innovative platform of Visily, where you can access a vast collection of pre-designed templates and cutting-edge AI-based tools. Effortlessly transform images or sketches into fully customizable wireframes, streamlining your design process like never before. With Visily\'s intuitive interface and powerful features, you can bring your ideas to life in no time, empowering you to create stunning and functional wireframes with ease. Say hello to a new era of design efficiency and creativity with Visily.', 'freeaiminds.com/images/visily 18.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/fathom 19.png" alt="Fathom"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Fathom</h2>
+                            <a href="https://hello.fathom.fm/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Fathom', 'hello.fathom.fm/', 'Discover our AI-powered iOS app for podcasts. Get tailored recommendations and highlights of favorite episodes with full transcripts and easy chapter access. Elevate your podcast experience today!', 'freeaiminds.com/images/fathom 19.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/magicstudio 20.png" alt="Magic Studio"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Magic Studio</h2>
+                            <a href="https://magicstudio.com/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Magic Studio', 'magicstudio.com/', 'Unleash your creativity effortlessly with our feature-packed image editor! Instantly generate profile pictures with ease, explore generative image creation, and experience the magic of smart background eraser tools. Elevate your visuals in a snap!', 'freeaiminds.com/images/magicstudio 20.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/piggy 21.png" alt="Piggy"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Piggy</h2>
+                            <a href="https://piggy.to/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Piggy', 'piggy.to/', 'Revolutionize your mobile social feeds with our instant content creator! Effortlessly craft unique story-style multi-image content by entering keywords and phrases. Say goodbye to content creation struggles and hello to engaging visuals in seconds!', 'freeaiminds.com/images/piggy 21.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/deepai 22.png" alt="Deep AI"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Deep AI</h2>
+                            <a href="https://deepai.org/machine-learning-model/text2img" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Deep AI', 'deepai.org/machine-learning-model/text2img', 'Introducing our cutting-edge mobile content creator! Instantly generate captivating content for your social feeds with ease. Simply input keywords and phrases to create unique story-style multi-image posts. Say hello to hassle-free content creation and make your social media stand out!', 'freeaiminds.com/images/deepai 22.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/deciphr 23.png" alt="Deciphr"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Deciphr</h2>
+                            <a href="https://www.deciphr.ai/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Deciphr', 'deciphr.ai/', 'Deciphr: Free AI tool, timestamps & summarizes podcasts in <60s. End-to-end encryption ensures secure show notes & timestamps. Elevate your podcast experience now!', 'freeaiminds.com/images/deciphr 23.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/howtoleverageai 24.png" alt="How to Leverage AI"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">How to Leverage AI</h2>
+                            <a href="https://www.howtoleverageai.com/midjourney-prompt-generator" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['How to Leverage AI', 'howtoleverageai.com/midjourney-prompt-generator', 'Unlock boundless money-making opportunities with our expert AI guides and tutorials. Discover how to harness AI\'s potential for enhanced creativity and increased profits. Maximize your success with AI today!', 'freeaiminds.com/images/howtoleverageai 24.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/aiprm 25.png" alt="AIPRM"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">AIPRM</h2>
+                            <a href="https://www.aiprm.com/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['AIPRM', 'aiprm.com/', 'AIPRM comes with curated prompts to help SEO professionals optimize their websites and boost rankings on search engines.', 'freeaiminds.com/images/aiprm 25.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/compose 26.png" alt="Compose AI"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Compose AI</h2>
+                            <a href="https://www.compose.ai/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Compose AI', 'compose.ai/', 'Compose AI: Free Chrome extension, AI-powered autocompletion & text generation for time-saving, automated writing. Streamline your content creation now!', 'freeaiminds.com/images/compose 26.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/promptlayer 27.png" alt="Prompt Layer"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Prompt Layer</h2>
+                            <a href="https://promptlayer.com/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Prompt Layer', 'promptlayer.com/', 'Introducing The First Platform Built for Prompt Engineers, a groundbreaking tool tailored for creative minds and engineers alike. Unleash the full potential of your writing prowess with AI-powered prompt generation, revolutionizing content creation and problem-solving. Elevate your projects and unlock limitless possibilities with this cutting-edge platform, designed to fuel innovation and streamline your creative process. Say hello to a new era of prompt engineering and watch your ideas come to life like never before!', 'freeaiminds.com/images/promptlayer 27.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/2short 28.png" alt="2short AI"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">2short AI</h2>
+                            <a href="https://2short.ai/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['2short AI', '2short.ai/', 'Experience the power of 2short.ai - convert YouTube videos into captivating shorts with AI-generated captions for maximum reach and channel growth. The algorithm promotes your shorts, while AI takes care of editing, hassle-free and at no cost. Supercharge your content creation today!', 'freeaiminds.com/images/2short 28.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/adobe firefly 29.png" alt="Adobe Firefly"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Adobe Firefly</h2>
+                            <a href="https://firefly.adobe.com/" target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Adobe Firefly', 'firefly.adobe.com/', 'Discover Adobe Firefly - the ultimate Generative AI designed for creators. Unleash your imagination and effortlessly create and edit content across diverse mediums. With Firefly, you can generate custom vectors, brushes, and textures with a few words or a simple sketch, opening up a world of creative possibilities at your fingertips. Experience content creation like never before with this versatile, creator-focused tool by Adobe.', 'freeaiminds.com/images/adobe firefly 29.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article
+                    class="rounded-lg shadow-md overflow-hidden relative bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+                    <div class="p-4">
+                        <div class="mb-4">
+                            <img src="https://freeaiminds.com/images/casper ai chrome extension 30.png" alt="Casper AI"
+                            class="mx-auto w-full"  loading="lazy"/>
+                        </div>
+                        <div class="mb-4" style="height: 30px;">
+                            <h2 class="text-xl font-semibold float-left text-white">Casper AI</h2>
+                            <a href="https://chrome.google.com/webstore/detail/casper-ai/fgfiokgecpkambjildjleljjcihnocel"
+                                target="_blank"><i
+                                    class="material-icons float-right cursor-pointer text-white">open_in_new</i></a>
+                        </div>
+                        <div class="mt-4">
+                            <button
+                                onclick="showDetails(['Casper AI', 'chrome.google.com/webstore/detail/casper-ai/fgfiokgecpkambjildjleljjcihnocel', 'Introducing a game-changing tool for professionals, streamlining workflows by summarizing articles, creating content, and sharing insights effortlessly with stakeholders. Unlock productivity and enhance collaboration with this powerful solution designed to revolutionize your work processes. Say goodbye to complexity and hello to seamless efficiency with our innovative tool.', 'freeaiminds.com/images/adobe firefly 29.png'])"
+                                class="px-4 py-2 rounded-lg text-white font-medium hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400">Detail</button>
+                        </div>
+                    </div>
+                </article>
+
+            
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <!-- footer -->
+    <footer
+        class="w-full text-white bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30 body-font">
+        <div
+            class="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
+            <div class="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2 ">
+                    <h2 class="mt-2 text-lg font-medium text-white">Free AI Mind</h2>
+                    <div>
+                        <img src="/FreeAIMind.png" class="w-1/4 mx-auto mt-4 sm:mx-0" alt="free ai mind logo"
+                            loading="lazy">
+                    </div>
+                </div>
+
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h2 class="mt-2 text-lg font-medium text-white">Support</h2>
+                    <nav class="mb-10 list-none">
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="/contact.html">Contact
+                                Support</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="/contact.html">Help
+                                Resources</a>
+                        </li>
+                    </nav>
+                </div>
+
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h2 class="mt-2 text-lg font-medium text-white">Platform</h2>
+                    <nav class="mb-10 list-none">
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="/privacy-policy.html">Terms
+                                &amp; Privacy</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="#tools">Tools</a>
+                        </li>
+                    </nav>
+                </div>
+
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h2 class="mt-2 text-lg font-medium text-white">Contact</h2>
+                    <nav class="mb-10 list-none">
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="/contact.html">Send a
+                                Message</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="/about.html">Who we are?</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container px-5 py-4 mx-auto border-t-2">
+            <p class="text-sm text-white capitalize xl:text-center">© 2023 All rights reserved</p>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>

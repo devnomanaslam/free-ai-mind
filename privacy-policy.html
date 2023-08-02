@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Include the Tailwind CSS and Animate.css links in your HTML file, if you haven't already -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" href="https://freeaiminds.com/images/FreeAIMind.png" type="image/x-icon">
+
+    <style>
+        body {
+            background-image: url('/images/bg.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+
+        .width-6 {
+            width: 6%;
+        }
+    </style>
+</head>
+
+<body class="bg-zinc-900">
+
+    <header class="flex items-center justify-center fixed w-full z-50 mt-4 ">
+        <nav
+            class="px-5 py-3 w-3/4 rounded-lg shadow-md bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30">
+            <div class="flex items-center justify-between lg:flex-1">
+                <a href="/" class="-m-1.5 p-1.5">
+                    <h1 class="text-lg font-bold text-white inline-flex items-center">
+                        <img class="w-6 mr-2" src="https://freeaiminds.com/images/FreeAIMind.png" alt="free ai mind logo">
+                        <span>FreeAiMind</span>
+                    </h1>
+                </a>
+                <div class="group inline-block relative">
+                    <i class="material-icons cursor-pointer px-4 py-2 text-white">widgets</i>
+                    <div class="hidden group-hover:block absolute top-10 right-0 bg-white rounded-lg shadow-lg p-4">
+                        <a href="/about.html"
+                            class="block mb-2 px-4 py-2 600 rounded hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400 text-white">About</a>
+                        <a href="/contact.html"
+                            class="block px-4 py-2 600 rounded hover:bg-blue-800 w-full bg-gradient-to-r from-blue-400 to-blue-800 hover:from-blue-800 hover:to-blue-400 text-white">Contact</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- space -->
+    <div class="h-10"></div>
+
+
+    <main class="p-10">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold text-center text-white mt-8 mb-12">Policy Page</h1>
+            <div class="flex flex-wrap -mx-4 mt-8">
+                <!-- Privacy Policy -->
+                <div class="w-full md:w-1/2 px-4 mb-5">
+                    <div class="bg-zinc-500 bg-opacity-70 p-6 rounded-lg shadow-lg text-white h-full mb-6">
+                        <h2 class="text-xl font-semibold mb-4">Privacy Policy</h2>
+                        <p>This Privacy Policy outlines how we collect, use, and protect your personal information when you use our website and AI tools. Your privacy is important to us, and we take all necessary measures to safeguard your data.</p>
+                        <!-- Add your specific Privacy Policy content here -->
+                    </div>
+                </div>
+                <!-- Acceptable Use Policy -->
+                <div class="w-full md:w-1/2 px-4 mb-5">
+                    <div class="bg-zinc-500 bg-opacity-70 p-6 rounded-lg shadow-lg text-white h-full mb-6">
+                        <h2 class="text-xl font-semibold mb-4">Acceptable Use Policy</h2>
+                        <p>Our Acceptable Use Policy outlines the rules and guidelines for using our website and AI tools responsibly. It's essential to adhere to all applicable laws and regulations while using our platform.</p>
+                        <!-- Add your specific Acceptable Use Policy content here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    
+    
+
+    <!-- footer -->
+    <footer
+        class="w-full text-white bg-zinc-500 bg-gradient-to-br from-bg-zinc-700 via-zinc-400 to-zinc-200 bg-blur-md bg-opacity-70 border border-white border-opacity-30 body-font">
+        <div
+            class="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
+            <div class="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2 ">
+                    <h2 class="mt-2 text-lg font-medium text-white">Free AI Mind</h2>
+                   
+                    <div>
+                        <img src="https://freeaiminds.com/images/FreeAIMind.png" class="w-1/4 mx-auto mt-4 sm:mx-0" alt="free ai mind logo"
+                            loading="lazy">
+                    </div>
+                </div>
+
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h2 class="mt-2 text-lg font-medium text-white">Support</h2>
+                    <nav class="mb-10 list-none">
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="/contact.html">Contact
+                                Support</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="/contact.html">Help
+                                Resources</a>
+                        </li>
+                     
+                    </nav>
+                </div>
+
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h2 class="mt-2 text-lg font-medium text-white">Platform</h2>
+                    <nav class="mb-10 list-none">
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="/privacy-policy.html">Terms
+                                &amp; Privacy</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="#tools">Tools</a>
+                        </li>
+                       
+                    </nav>
+                </div>
+
+                <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h2 class="mt-2 text-lg font-medium text-white">Contact</h2>
+                    <nav class="mb-10 list-none">
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="/contact.html">Send a
+                                Message</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-400 cursor-pointer hover:text-white" href="/about.html">Who we are?</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container px-5 py-4 mx-auto border-t-2">
+            <p class="text-sm text-white capitalize xl:text-center">© 2023 All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
