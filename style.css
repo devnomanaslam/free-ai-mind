@@ -1,0 +1,21 @@
+.custom-border {
+    border: 2px solid rgb(203 213 225);
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.custom-border:hover {
+    border: 2px solid rgb(16 185 129);
+    border-image-slice: 1;
+}
+
+body {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.width-6 {
+    width: 6%;
+}
